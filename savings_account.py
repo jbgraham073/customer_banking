@@ -33,5 +33,3 @@ def create_savings_account(balance, interest_rate, months):
     # Return the updated balance and interest earned.
     return  (savings.balance, savings.interest)
 
-if __name__ == '__main__':
-    print(f'Your account balance is: {create_savings_account(1000,5,12)}')
